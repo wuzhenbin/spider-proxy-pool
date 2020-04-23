@@ -28,7 +28,9 @@ MIN_SCORE = 0
 INITIAL_SCORE = 10
 
 # 测试API，建议抓哪个网站测哪个
-TEST_URL = 'http://www.baidu.com'
+# TEST_URL = 'http://www.baidu.com'
+TEST_URL = 'https://data.p4psearch.1688.com/data/ajax/get_premium_offer_list.json?beginpage=1&asyncreq=1&keywords=%E8%8C%B6%E5%8F%B6&sortType=&descendOrder=&province=&city=&priceStart=&priceEnd=&dis=&cosite=baidujj&location=re&trackid=8856886241459804884118&spm=a2609.11209760.j3f8podl.e5rt432e&keywordid=57065993601&pageid=6bcb51e048iARp&p4pid=1552387531017239008785&callback=jsonp_1552387531620_83004&_=1552387531620'
+
 
 # 允许测试结果状态码
 VALID_STATUS_CODES = [200, 302]
